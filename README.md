@@ -16,7 +16,7 @@ This project is a case study that tests Money Transfer feature on payment page.
 Use the following command on console to clone the project.
 
 ```bash
-git clone https://github.com/MaksuCode/youtube-amazon-selenium.git
+git clone https://github.com/MaksuCode/hepsiburada-case-study.git
 ```
 
 *** 
