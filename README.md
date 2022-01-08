@@ -32,7 +32,7 @@ mvn -Dbrowser='chrome' -Demail='your_email@gmail.com' -Dpassword='your_password'
 ```
 browser can take the following values:
 * chrome
-* browser
+* firefox
 * edge
 
 email and password values should also be valid.
