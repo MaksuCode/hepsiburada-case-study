@@ -76,9 +76,10 @@ public class BasePage extends DriverManager {
     }
 
     public void clickContinue(){
-        click(continueButton);
         // TODO: 7.01.2022 Fix here
         try {
+            click(continueButton);
+
             Thread.sleep(3000);
         }catch (Exception e){
             e.printStackTrace();
