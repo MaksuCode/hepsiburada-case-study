@@ -8,12 +8,12 @@ import java.util.List;
 public class ProductsPage extends BasePage{
 
     By product = By.cssSelector("li.productListContent-item");
-    By addToCart = By.cssSelector("button.moria-ProductCard-doyKbw  div");
-
+    By addToCart = By.cssSelector("button[data-test-id='product-info-button']");
     public void selectProduct(int index){
         WebElement product1 = getProducts().get(index);
         hoverOver(product1);
         click(addToCart);
+
     }
 
     private List<WebElement> getProducts(){
